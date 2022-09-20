@@ -1,0 +1,106 @@
+body{
+	background: #202124;
+}
+h2{
+	color: white;
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+.main-Container{
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.calc-Container{
+	width: 70vw;
+	padding: 2em;
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.screen{
+	width: 100%;
+
+	border-style: solid;
+	border-color: rgba(60,64,67,255);
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.buttons{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 70% 30%;
+}
+
+.result{
+	font-family: 'Exo 2', sans-serif;
+	color: white;
+}
+
+.btn-number-contain{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.btn-number{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+	border: none;
+	font-family: 'Exo 2', sans-serif;
+	border-radius: 10px;
+	background: rgba(60,64,67,255);
+	margin: 10px;
+	color: white;
+	transition: 1s;
+}
+.btn-number:hover{
+	background: rgba(60,64,67,255);
+	-webkit-filter: brightness(150%);
+	transition: .5s;
+	cursor: pointer;
+}
+
+.btn-operation-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.btn-operation{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+	border: none;
+	font-family: 'Exo 2', sans-serif;
+	border-radius: 10px;
+	background: #5f6368;
+	margin: 10px;
+	color: white;
+	padding: 20px 0px 20px 0px;
+}
+.btn-operation:hover{
+	background: rgba(95,99,104,255);
+	-webkit-filter: brightness(150%);
+	transition: .5s;
+	cursor: pointer;
+}
